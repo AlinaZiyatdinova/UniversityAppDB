@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="100dp"
+    android:background="@color/light_gray">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyTextViewStyle2"
+            android:textAllCaps="true"
+            android:text="title">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textview_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyTextViewStyle2"
+            android:textAllCaps="false"
+            android:gravity="start"
+            android:paddingStart="10dp"
+            android:text="Country">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textview_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyTextViewStyle2"
+            android:gravity="start"
+            android:paddingStart="10dp"
+            android:text="web">
+        </TextView>
+    </LinearLayout>
+</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Zd5" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/accentColorPink</item>
+        <item name="colorPrimaryVariant">@color/accentColorPink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accentColorGrey</item>
+        <item name="colorSecondaryVariant">@color/accentColorGrey</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Zd5.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Zd5.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Zd5.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/accentColorWheat</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="MyTextViewStyle2" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MyEditViewStyle" parent="android:Widget.EditText">
+        <item name="android:digits">abcdefghijklmnopqrstuvwxyz1234567890_.</item>
+        <item name="android:background">@drawable/background_view</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:textColorHint">@color/accentColorGrey</item>
+        <item name="android:height">40dp</item>
+    </style>
+</resources>
